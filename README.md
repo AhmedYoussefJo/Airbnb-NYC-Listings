@@ -18,10 +18,10 @@ Exploratory Data Analysis on **~48,000 Airbnb listings in New York City (2019)**
 ## 📁 Project Structure
 
 ```
-airbnb-nyc-eda/
+Airbnb-NYC-Listings/
 │
 ├── AB_NYC/
-│   └── AB_NYC_2019.csv        # Dataset
+│   └── AB_NYC_2019.csv        # Dataset (see below)
 │
 ├── arbnbHosts.ipynb            # Main analysis notebook
 ├── nyc_airbnb_map.html         # Interactive geospatial map
@@ -93,17 +93,17 @@ airbnb-nyc-eda/
 
 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/airbnb-nyc-eda.git
-cd airbnb-nyc-eda
+git clone https://github.com/AhmedYoussefJo/Airbnb-NYC-Listings.git
+cd Airbnb-NYC-Listings
 ```
 
 2. Install dependencies
 ```bash
-pip install pandas numpy matplotlib seaborn folium
+pip install pandas numpy matplotlib seaborn folium jupyter
 ```
 
-3. Add the dataset inside `AB_NYC/` folder  
-   *(Dataset source: [Inside Airbnb](http://insideairbnb.com/) / Kaggle AB_NYC_2019)*
+3. Download the dataset from Kaggle and place it inside `AB_NYC/` folder
+   👉 [Download AB_NYC_2019.csv](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
 
 4. Run the notebook
 ```bash
@@ -117,11 +117,16 @@ jupyter notebook arbnbHosts.ipynb
 **AB_NYC_2019.csv** — New York City Airbnb Open Data  
 Source: [Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
 
+> ⚠️ Dataset is not included in this repo due to size. Download it from Kaggle and place it inside the `AB_NYC/` folder.
+
 Key columns: `price`, `room_type`, `neighbourhood_group`, `number_of_reviews`, `availability_365`, `latitude`, `longitude`, `last_review`
 
 ---
 
 ## 👤 Author
+
+**Ahmed Youssef**  
+[![GitHub](https://img.shields.io/badge/GitHub-AhmedYoussefJo-181717?logo=github)](https://github.com/AhmedYoussefJo)
 
 Made with ❤️ as a Data Analysis practice project  
 Feel free to ⭐ the repo if you found it useful!
