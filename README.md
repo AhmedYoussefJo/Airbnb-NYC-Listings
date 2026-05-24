@@ -15,7 +15,7 @@ Exploratory Data Analysis on **~48,000 Airbnb listings in New York City (2019)**
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 
 ```
 Airbnb-NYC-Listings/
