@@ -1,5 +1,4 @@
 # 🏙️ Airbnb NYC Listings — Exploratory Data Analysis
-# Hello From Ahmed Yousef
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4C72B0)
